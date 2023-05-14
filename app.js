@@ -3,7 +3,7 @@ var app = express();
 const indexApi = require('./routes/api')
 process.on('uncaughtException', console.log)
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
 app.set("json spaces",2)
